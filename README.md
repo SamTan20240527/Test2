@@ -1,7 +1,4 @@
+linechart:
+https://raw.githubusercontent.com/SamTan20240527/Test2/refs/heads/main/linechart.json
 
-
-barchart.json:
-{
-    "labels": ["A", "B", "C", "D", "E"],
-    "data": [10, 20, 30, 40, 50]
-}
+barchart:
