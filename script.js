@@ -1,7 +1,7 @@
 // Fetch JSON data using Axios
 Promise.all([
-    axios.get('linechart.json'),
-    axios.get('barchart.json')
+    axios.get('https://raw.githubusercontent.com/SamTan20240527/Test2/refs/heads/main/linechart.json'),
+    axios.get('https://raw.githubusercontent.com/SamTan20240527/Test2/refs/heads/main/barchart.json')
 ])
 .then(responses => {
     const lineChartData = responses[0].data;
