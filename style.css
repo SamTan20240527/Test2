@@ -1,0 +1,6 @@
+/* Add your custom styles here */
+#chart, #bar-chart {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
